@@ -1,0 +1,193 @@
+.BalanceViewer{
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #ffff;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+.BalanceViewer h2{
+    margin-top: 40px;
+}
+.income-expense{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    /* background-color: #4ab674; */
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.income , .expense{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.transaddbtn{
+    width: 600px;
+    height: 50px;
+    background-color: #4ab674;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #ffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.Transcation-List
+{
+        width: 600px;
+        height: 400px;
+        background-color: #ffff;
+        margin-top: 30px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+        padding: 15px;
+        gap: 15px;
+        max-height: 300px;      /* adjust height as per your layout */
+        overflow-y: auto;       /* enables vertical scrollbar */
+        overflow-x: hidden;
+         scrollbar-width: thin;  /* for Firefox */
+         scrollbar-color: #888 #f1f1f1; /* for Firefox */ 
+}
+
+
+.Expense{
+  display: flex;
+    flex-direction: column;
+}
+.transacCont{
+    overflow-y: auto;
+    scrollbar-width:none;
+    position:fixed;
+    top: 40px;
+    left: 25rem;
+    bottom: 70px;
+    width: 500px;
+    height:650px;
+    max-height: 600px;
+    z-index: 1000;
+    background-color:#ffff;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.HeadTrans{
+    margin-top: 40px;
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    justify-content: space-between;
+}
+.HeadTrans h1{
+    margin-left: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.popcross
+{
+    position: fixed;
+   margin-left: 27rem;
+   margin-top: 10px;
+   font-size: 20px;
+   color:#848484;
+}
+.transContainer{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    /* margin-top: 40px;
+    margin-left: 90px ; */
+    margin: 50px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    /* background-color: #4ab674; */
+}
+.transContainer .inputtext{
+    width: 400px;
+    height: 40px;
+    border:2px solid gray;
+    border-radius: 5px;
+}
+.typeselection{
+    display: flex;
+    gap: 50px;
+}
+.CategorySelect{
+    display: flex;
+    gap: 10px;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.inputtype{
+    margin-right: 10px;
+}
+.inputcategory{
+     width: 400px;
+    height: 40px;
+    border:2px solid gray;
+    border-radius: 5px;
+}
+.VerifySection{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 10rem;
+}
+.VerifySection button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+   background-color: white;
+   font-size:1.1rem;
+   font-weight: 400;
+   color: black;
+   
+}
+.Addtrans:hover{
+    background-color: #4ab674;
+    color: white;
+}    
+
+.transBars{
+    
+    
+    
+    width: 500px;
+    padding: 10px;
+}
+.Transtitle{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Transtitle-sec1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.dotIcon{
+    width: 20px;
+    height: 20px;
+   
+}
+.Datafield{
+    width: 400px;
+    height: 40px;
+    border:2px solid gray;
+    border-radius: 5px;
+}

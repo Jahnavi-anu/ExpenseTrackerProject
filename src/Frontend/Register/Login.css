@@ -1,0 +1,31 @@
+.LoginContainer{
+    /* background-color: aqua; */
+    margin: 20px;
+    height: 325px;
+}
+.fullName, .email, .pass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+.finput ,.einput ,.pinput{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.loginbtn,.registerbtn{
+    margin-top: 10px;
+    width: 300px;
+    height: 35px;
+    background-color: #4ab674;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.loginnavigate{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

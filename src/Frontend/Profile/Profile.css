@@ -1,0 +1,128 @@
+.ProfilePage{
+   margin: 40px;
+}
+ .ProfileTab{
+    height: 190px;
+    width: 80rem;
+    display: flex;
+    align-items: center;
+    /* top: 90px;
+    left: 30px;
+    right: 30px;
+    position: relative; */
+    /* margin-top: 30px; */
+    background-color: #fff;
+    border-radius: 5px;
+} 
+.PersonalDetails{
+    height: 300px;
+    width: 40rem;
+    background-color: #fff;
+    padding: 30px 20px 10px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.PersonalDetails > h3{
+    margin-bottom: 10px;
+}
+.FullName , .Email , .PhoneNumber , .Occupation , .Address{
+  display: grid;
+  grid-template-columns:50% 40%;
+  margin-bottom: 20px;
+ 
+}
+.DetailsChanges{
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+
+}
+.DetailsChanges > button{
+     width: 150px;
+     height: 35px;
+     background-color: #4ab674;
+     color: #fff;
+      margin-right: 60px;
+      border: none;
+      border-radius: 5px;
+}
+  .Profile{
+   display: flex;
+   gap: 20px;
+   
+   /* justify-content: center; */
+   align-items: center;
+  }
+ .Profile > img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 160px;
+ } 
+ .ProfileDetails{
+  width: 30rem;
+ }
+ .Editbutton{
+   display: flex;
+   justify-content: flex-end;
+   
+ }
+ .edit{
+   width: 120px;
+   height: 40px;
+   background-color: #4ab674;
+   color: white;
+   border: none;
+   border-radius: 5px;
+ }
+ .logout{
+   position: absolute;
+   z-index: 100;
+    width: 110px;
+   height: 40px;
+   border: none;
+   border-radius: 5px;
+ }
+ .PreferenceSec{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+ }
+ .Preference{
+  width: 500px;
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+ }
+.Preference >h3{
+  margin-bottom: 30px;
+}
+ .Theme, .Notify, .PrivacySec{
+   display: grid;
+   grid-template-columns: 50% 30%;
+   margin-bottom: 10px;
+   /* row-gap: 20px; */
+ }
+ .typeSelection{
+  display: flex;
+  gap: 10px;
+ }
+ .typeSelection  input{
+  margin-right: 5px;
+ }
+ .PrivacySec{
+  margin-top: 30px;
+ }
+ .passchange{
+  width: 210px;
+  height: 35px;
+  background-color: #4ab674;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+ }
+ .ProfileSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }

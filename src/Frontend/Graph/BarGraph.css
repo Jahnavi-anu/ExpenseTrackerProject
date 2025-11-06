@@ -1,0 +1,133 @@
+.spendingSummary{
+    background-color: #ffff;
+    width:710px;
+    
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 30px;
+    
+    
+}
+.spendingSummary h4
+{
+        letter-spacing: 1px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 19px;
+        margin-bottom: 20px;
+    
+}
+.Bar-Headers{
+    display: flex;
+    justify-content: space-between;
+}
+.Bar-Content{
+    text-align: center;
+}
+.Bar-Row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.BarContainer{
+    display: flex;
+   gap: 30px;
+}
+.PieSection{
+   
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.PieContent{
+    width: 100px;
+    height: 100px;
+   display: flex;
+   /* margin-left: 40px; */
+   flex-direction: column;
+   /* gap: 30px; */
+   /* background-color: aqua; */
+   margin-right: 60px;
+   margin-top: 40px;
+}
+.PieWrapper{
+    display: flex;
+    flex-direction: row;
+}
+.Pie
+{
+     width: 470px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+   padding-top: 20px;
+   padding-left: 20px;
+}
+.PieHeader h2{
+    margin-left: 50px;
+}
+ .bardata{
+    display: flex;
+    flex-direction: row;
+ }
+.PieSpendingSummary{
+    height: 200px;
+    width: 450px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.PieHeaders{
+     display: flex;
+
+    justify-content: space-between;
+    gap: 60px;
+}
+.PieSumcontent{
+    display: flex;
+    flex-direction: column;
+     /* gap: 30px; */
+}
+
+.bardata{
+    display: flex;
+
+  justify-content: space-between;
+}
+.bardata > p{
+    text-align: justify;
+     width: 500px;
+
+}
+.Bar-Row >p{
+    text-align: justify;
+    width: 600px;
+        /* background-color: aqua; */
+}
+.Bar-Headers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: left;
+}
+.PieHeaders{
+     display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    text-align: left;
+}
+/* .Bar-Row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: right;
+    background-color: aqua;
+} */
+ 
